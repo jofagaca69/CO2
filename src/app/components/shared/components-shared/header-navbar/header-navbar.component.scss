@@ -1,0 +1,9 @@
+@import "../../../../../assets/styles/variables";
+
+.max-height-navbar {
+  max-height: 144px;
+}
+
+.header-menu-item:hover, .header-menu-item:active {
+  color: $primary !important;
+}

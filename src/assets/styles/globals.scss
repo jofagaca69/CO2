@@ -1,0 +1,140 @@
+@import "variables";
+html,
+body {
+  height: 100%;
+  background-color: $secondary;
+}
+
+.bg-color-primary {
+  background: $primary !important;
+}
+
+.bg-color-primary-dark {
+  background: $primary_dark !important;
+}
+
+.bg-color-secondary {
+  background: $secondary !important;
+}
+
+.text-color-primary {
+  color: $primary !important;
+}
+
+.text-color-secondary {
+  color: $secondary !important;
+}
+
+.text-color-white {
+  color: white !important;
+}
+
+.text-color-gray {
+  color: gray !important;
+}
+
+.font-weight-100 {
+  font-weight: 100 !important;
+}
+
+.font-weight-200 {
+  font-weight: 200 !important;
+}
+
+.font-weight-300 {
+  font-weight: 300 !important;
+}
+
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+
+.font-weight-700 {
+  font-weight: 700 !important;
+}
+
+.font-weight-800 {
+  font-weight: 800 !important;
+}
+
+.font-weight-900 {
+  font-weight: 900 !important;
+}
+
+.font-size-10 {
+  font-size: 10px !important;
+}
+
+.font-size-12 {
+  font-size: 12px !important;
+}
+
+.font-size-14 {
+  font-size: 14px !important;
+}
+
+.font-size-16 {
+  font-size: 16px !important;
+}
+
+.font-size-20 {
+  font-size: 20px !important;
+}
+
+.font-size-24 {
+  font-size: 24px !important;
+}
+
+.font-size-32 {
+  font-size: 32px !important;
+}
+
+.font-size-40 {
+  font-size: 40px !important;
+}
+
+.font-size-56 {
+  font-size: 56px !important;
+}
+
+.font-size-72 {
+  font-size: 72px !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+// Fonts
+
+.font-caveat {
+  font-family: $font-caveat;
+}
+
+.font-tenorsans {
+  font-family: $font-tenorsans;
+}
+
+// Cursors
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// Border Radius
+
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.border-radius-20 {
+  border-radius: 20px;
+}

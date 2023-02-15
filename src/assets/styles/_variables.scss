@@ -1,0 +1,19 @@
+$primary: #00A870;
+$primary_dark: #021D1A;
+$secondary: #1B1C21;
+$font-caveat: 'Caveat';
+$font-tenorsans: 'TenorSans';
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('/assets/fonts/caveat/Caveat-Regular.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TenorSans';
+  src: url('/assets/fonts/tenorsans/TenorSans-Regular.ttf');
+  font-weight: 300;
+  font-style: normal;
+}

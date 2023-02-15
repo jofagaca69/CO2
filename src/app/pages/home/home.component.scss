@@ -1,0 +1,25 @@
+@import "../../../assets/styles/variables";
+html,
+body {
+  background: #1B1C21;
+}
+
+.contact-container {
+  background-image: url("../../../assets/images/home/img7.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.text-color-white {
+  text-decoration: none !important;
+}
+
+a.text-color-white:hover, a.text-color-white.active {
+  color: $primary !important;
+  text-decoration: underline !important;
+}
+
+.border-top-gray {
+  border-top: 1px solid gray;
+}
