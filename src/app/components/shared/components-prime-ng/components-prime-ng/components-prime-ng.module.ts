@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {GMapModule} from "primeng/gmap";
+import {DropdownModule} from "primeng/dropdown";
+import {SpeedDialModule} from "primeng/speeddial";
 
 
 
@@ -8,10 +10,14 @@ import {GMapModule} from "primeng/gmap";
   declarations: [],
   imports: [
     CommonModule,
-    GMapModule
+    GMapModule,
+    DropdownModule,
+    SpeedDialModule
   ],
   exports: [
-    GMapModule
+    GMapModule,
+    DropdownModule,
+    SpeedDialModule
   ]
 })
 export class ComponentsPrimeNgModule { }

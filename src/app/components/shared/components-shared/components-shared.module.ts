@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import {RouterLink} from "@angular/router";
+import {TranslateModule} from "@ngx-translate/core";
+import {ComponentsPrimeNgModule} from "../components-prime-ng/components-prime-ng/components-prime-ng.module";
 
 
 
@@ -14,7 +16,9 @@ import {RouterLink} from "@angular/router";
     ],
     imports: [
         CommonModule,
-        RouterLink
+        RouterLink,
+        TranslateModule,
+        ComponentsPrimeNgModule
     ]
 })
 export class ComponentsSharedModule { }

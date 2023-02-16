@@ -7,6 +7,7 @@ import {ComponentsSharedModule} from "../../components/shared/components-shared/
 import {
   ComponentsPrimeNgModule
 } from "../../components/shared/components-prime-ng/components-prime-ng/components-prime-ng.module";
+import {TranslateModule} from "@ngx-translate/core";
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {
         HomeRoutingModule,
         ButtonModule,
         ComponentsSharedModule,
-        ComponentsPrimeNgModule
+        ComponentsPrimeNgModule,
+        TranslateModule
     ]
 })
 export class HomeModule {

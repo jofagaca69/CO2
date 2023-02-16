@@ -48,19 +48,14 @@
       <div class="col-12 col-md-7 my-5">
         <div class="mx-5">
           <p class="text-color-white font-size-72 font-weight-400 font-caveat">
-            Objetivos
+            {{ 'OBJECTIVES' | translate}}
           </p>
           <ul>
-            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">Cumplir con el objeto empresarial</li>
-            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">Innovación empresarial permanente</li>
-            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">Calidad con fundamento en los estándares
-              internacionales y nacionales
-            </li>
-            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">Apoyar al productor en sus procesos</li>
-            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">Asesoría permanente legal y comercial a
-              clientes,
-              proveedores y socios
-            </li>
+            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">{{ 'OBJECTIVE_FIRST' | translate}}</li>
+            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">{{ 'OBJECTIVE_SECOND' | translate}}</li>
+            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">{{ 'OBJECTIVE_THIRD' | translate}}</li>
+            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">{{ 'OBJECTIVE_FOURTH' | translate}}</li>
+            <li class="text-color-white fs-3 font-weight-400 font-tenorsans">{{ 'OBJECTIVE_FIFTH' | translate}}</li>
           </ul>
         </div>
 
@@ -75,14 +70,10 @@
       <div class="col-12 col-md-7 my-5">
         <div class="mx-5">
           <p class="text-color-primary font-size-72 font-weight-400 font-caveat">
-            Misión
+            {{ 'MISSION' | translate }}
           </p>
           <p class="text-color-white font-size-24 font-weight-400 text-wrap text-justify font-tenorsans">
-            Ofrecer a nuestros clientes y proveedores una empresa de clase mundial al cumplir con los estándares de
-            gestión de alta calidad en los diversos procesos que cumplen los productos aplicados a nuestro objeto social
-            en cuanto a suministro, ventas y distribución por lo que están en constante auditoria del equipo humano
-            especializado en las diversas áreas colaborando armónica y eficientemente brindando asesoría permanente
-            cumpliendo nuestros objetivos organizacionales y ampliar relaciones comerciales
+            {{ 'MISSION_DESCRIPTION' | translate }}
           </p>
         </div>
 
@@ -105,14 +96,10 @@
       <div class="col-12 col-md-7 my-5">
         <div class="mx-5">
           <p class="text-color-primary font-size-72 font-weight-400 font-caveat">
-            Visión
+            {{ 'VISION' | translate }}
           </p>
           <p class="text-color-white font-size-24 font-weight-400 text-wrap text-justify font-tenorsans">
-            Líder al ser referente nacional y mundial en los procesos aplicados a la comercialización de bienes y
-            servicios de acuerdo con nuestro objeto empresarial, aplicando los conceptos de innovación, planeación
-            estratégica, estandarización y calidad total en toda nuestra infraestructura de gestión administrativa,
-            comercial y laboral considerando el bienestar con satisfacción a todos nuestros clientes como a los
-            proveedores y socios
+            {{ 'VISION_DESCRIPTION' | translate }}
           </p>
         </div>
 
@@ -123,7 +110,7 @@
 
   <div class="w-100 h-50 contact-container d-flex align-items-center justify-content-center">
     <p class="text-color-white font-size-72 font-weight-700 font-caveat">
-      Contáctanos
+      {{ 'CONTACT_US' | translate }}
     </p>
   </div>
 
@@ -134,10 +121,10 @@
       <div class="col-12 col-md-8 my-5">
         <div class="mx-5">
           <p class="text-color-white font-size-40 font-weight-400 font-tenorsans">
-            ¿Cómo podemos ayudarte?
+            {{ 'HOW_CAN_WE_HELP_YOU' | translate }}
           </p>
           <p class="text-color-white font-size-24 font-weight-400 font-tenorsans">
-            Póngase en contacto con nosotros y hable con uno de nuestros expertos
+            {{ 'CONTACT_US_AND_TALK' | translate }}
           </p>
 
           <ul style="list-style: none;">
@@ -145,28 +132,28 @@
             <li class="font-size-24 font-weight-400 py-2">
               <a class="text-color-white" href="tel:+573153672699">
                 <i class="pi pi-info-circle text-color-white font-size-24"></i>
-                JM GROUP S.A.S.
+                {{ 'COMPANY_NAME' | translate }}
               </a>
             </li>
 
             <li class="font-size-24 font-weight-400 py-2">
               <a class="text-color-white" href="tel:+573008783616">
                 <i class="pi pi-phone text-color-white font-size-24"></i>
-                (+57) 300-878-3616
+                {{ 'PRIMARY_PHONE' | translate }}
               </a>
             </li>
 
             <li class="font-size-24 font-weight-400 py-2">
               <a class="text-color-white" href="tel:+573153672699">
                 <i class="pi pi-phone text-color-white font-size-24"></i>
-                (+57) 315-367-2699
+                {{ 'SECONDARY_PHONE' | translate }}
               </a>
             </li>
 
             <li class="font-size-24 font-weight-400 py-2">
               <a class="text-color-white" href="https://goo.gl/maps/DoN1pVxKFYQkmc596">
                 <i class="pi pi-map-marker text-color-white font-size-24"></i>
-                Barranquilla, Atlántico. Carrera 7 Corredor Portuario #1c-34
+                {{ 'ADDRESS' | translate}}
               </a>
             </li>
 
@@ -176,13 +163,21 @@
 
       <div class="col-12 col-md-4 my-5">
         <!-- TODO: Agregar mapa          -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1958.4511820641346!2d-74.7695844!3d10.9707419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef432b03df446a3%3A0x97fa1c3d7cc70269!2sCorredor%20Portuario%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1sen!2sco!4v1676166362233!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>
-    </div>
-  </div>
+        <div class="embed-responsive embed-responsive-4by3 d-flex justify-content-center">
+          <iframe class="embed-responsive-item w-100 h-100" allowfullscreen style="border:0;" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1958.4511820641346!2d-74.7695844!3d10.9707419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef432b03df446a3%3A0x97fa1c3d7cc70269!2sCorredor%20Portuario%2C%20Nte.%20Centro%20Historico%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1sen!2sco!4v1676166362233!5m2!1sen!2sco"></iframe>
+        </div>
 
-  <div class="border-top-gray">
-    <div class="container d-flex h-100 flex-row justify-content-center flex-wrap py-3">
-      <p class="text-color-gray">Copyright 2023 All rights deserved</p>
+        <!--        <iframe  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      </div>-->
+      </div>
+    </div>
+
+    <div class="border-top-gray">
+      <div class="container d-flex h-100 flex-row justify-content-center flex-wrap py-3">
+        <p class="text-color-gray">Copyright 2023 All rights deserved</p>
+      </div>
     </div>
   </div>
 </div>
+<p-speedDial [model]="[]" direction="down-right"></p-speedDial>
