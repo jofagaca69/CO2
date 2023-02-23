@@ -7,11 +7,10 @@ import { TranslateService} from "@ngx-translate/core";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'CO2';
 
   constructor(translate: TranslateService) {
-    translate.setDefaultLang('en');
-    translate.use('en');
+    translate.setDefaultLang('es');
+    translate.use('es');
     translate.addLangs(['es', 'en'])
   }
 }

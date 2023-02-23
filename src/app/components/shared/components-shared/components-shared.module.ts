@@ -4,15 +4,18 @@ import { HeaderNavbarComponent } from './header-navbar/header-navbar.component';
 import {RouterLink} from "@angular/router";
 import {TranslateModule} from "@ngx-translate/core";
 import {ComponentsPrimeNgModule} from "../components-prime-ng/components-prime-ng/components-prime-ng.module";
+import { CarouselComponent } from './carousel/carousel.component';
 
 
 
 @NgModule({
     declarations: [
-        HeaderNavbarComponent
+        HeaderNavbarComponent,
+        CarouselComponent
     ],
     exports: [
-        HeaderNavbarComponent
+        HeaderNavbarComponent,
+        CarouselComponent
     ],
     imports: [
         CommonModule,
