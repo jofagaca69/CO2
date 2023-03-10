@@ -5,7 +5,7 @@ body {
 }
 
 .contact-container {
-  background-image: url("../../../assets/images/home/img7.jpg");
+  background-image: url("../../../assets/images/home/img7.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,39 +24,18 @@ a.text-color-white:hover, a.text-color-white.active {
   border-top: 1px solid gray;
 }
 
-// .carousel-item > img {
-//   max-height: 600px;
-// }
-
-// main{
-//   height: calc(100% - 174px);
-//   padding: 50px 20px;
-//   display: flex;
-//   justify-content: space-between;
-//   bordeR: solid blue;
-// }
-
-// .contenedor-descripcion{
-//   border: solid red;
-//   flex-basis: 35%;
-// }
-
-// .contenedor-carrusel{
-//   display: flex;
-//   flex-basis: 65%;
-//   align-items: center;
-//   justify-content: center;
-// }
-
-// #carouselExample{
-//   width: 90%;
-// }
-
-
-
-.container {
+.container-carousel {
   display: block;
   height: 500px;
   width: 100%;
   padding: 2em;
+}
+
+@media screen and (max-width: 425px){
+  .container-carousel {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 2em;
+  }
 }
